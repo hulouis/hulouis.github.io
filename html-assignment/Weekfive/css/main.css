@@ -1,0 +1,79 @@
+body {
+    background-color: teal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.wrapper {
+    padding: 20px;
+
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+}
+.site-title {
+  color: #fff;
+  text-align: center;
+
+}
+
+#my-image img {
+    width:400px ;
+    height:400px;
+    display: block;
+    vertical-align: 0;
+   padding: 0;
+   margin: 0;
+   box-shadow: 2px 1px 1px rgb(1, 1, 1);
+ 
+   
+}
+
+header, footer {
+    background-color: rgb(6, 116, 226);
+}
+nav ul {
+
+   list-style: none;
+    padding-left: 100px;
+    display: flex;
+}
+nav ul li {
+    
+    padding-left: 10px;
+    margin-left: 100px;
+}
+nav ul li a {
+    display: block;
+     color: #fff;
+     text-decoration: none;
+     background-color: blueviolet;
+     border-style:dotted;
+
+}
+nav ul li a:hover {
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+header .title{
+    color: red;
+}
+	
+	#habit {
+     display: block;
+
+    }
+    #habit ul li {
+
+        list-style: square;
+    }
+#habit ul li:nth-child(odd) {
+  
+    background: yellow;
+}
+#dog {
+
+    display: ;
+}
+header #logo{
+}
