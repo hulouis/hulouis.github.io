@@ -1,0 +1,70 @@
+.container {
+
+    background-color:#333333;
+    width: 1000px;
+   padding-bottom: 20px;
+    }
+
+
+nav {
+
+    display: grid;
+    grid-template-columns: 1150px;
+    grid-template-rows: 150px 50px 50px 50px 50px;
+    color: #c78c06;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+
+nav div {
+    text-align: center;
+    line-height: 50px;
+    /* width: 1000px;
+    height: 50px;  */
+   
+  
+}
+nav :nth-child(1) {
+
+
+padding-top: 100px; 
+background-color: #c78c06;
+color: #222;
+background-image:url(/images/logo.png);
+background-repeat: no-repeat;
+}
+
+.example {
+
+    height: 30px;
+}
+.search .text {
+    width: 1100px;
+    height: 25px;
+    margin-left: 20px;
+    font-size: 1em;
+}
+
+.search .submit {
+    width: 50px;
+    padding: 2px;
+    height: 30px;
+  
+
+}
+.container {
+   
+    width: 1200px;
+}
+
+@media screen and (min-width:760px) {
+    /* Styles applied more than 800px or above 800px */
+
+
+
+
+}
