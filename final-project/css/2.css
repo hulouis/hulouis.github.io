@@ -61,6 +61,8 @@ background-repeat: no-repeat;
     width: 1200px;
 }
 
+
+
 @media screen and (min-width:760px) {
     /* Styles applied more than 800px or above 800px */
 
